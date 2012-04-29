@@ -4,13 +4,13 @@ license:           BSD3
 license-file:      LICENSE
 author:            Lyndon Maydwell
 maintainer:        Lyndon Maydwell
-synopsis:          The greatest Yesod web application ever.
-description:       I'm sure you can say something clever here if you try.
+synopsis:          Implementing the 12-Factor application model as found on http://www.12factor.net/
+description:       Implementing the 12-Factor application model as found on http://www.12factor.net/
 category:          Web
 stability:         Experimental
 cabal-version:     >= 1.8
 build-type:        Simple
-homepage:          http://12Factor.yesodweb.com/
+homepage:          http://github.com/sordina/12Factor
 
 Flag dev
     Description:   Turn on development settings, like auto-reload templates.
