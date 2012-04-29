@@ -1,0 +1,20 @@
+Default: &defaults
+  database: 12Factor.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: 12Factor_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: 12Factor_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: 12Factor_production.sqlite3
+  poolsize: 100
+  <<: *defaults
